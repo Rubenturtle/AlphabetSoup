@@ -12,7 +12,9 @@ def alphabetSoup(m, s):
    print("You can write the message")
    return True
 
-result = alphabetSoup("hola que tal", "holaquetal")
+#These are the inputs for the code
+user_input = input("Enter a message you want to write: ")
+soup_input = input("letters found in your soup ")
 
-
+result = alphabetSoup(user_input,soup_input)
 
